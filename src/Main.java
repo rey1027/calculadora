@@ -37,7 +37,10 @@ public class Main {
                 case 1:
                     seleccion_de_operacion = 1;
                     int resultado =metodo.suma(valor_num_1,valor_num_2);
+                    int re = metodo.suma(resultado,valor_num_1);
                     System.out.println("El resultado de la operacion es: "+ resultado);
+                    System.out.println("\n");
+                    System.out.println(re);
 
 
 
